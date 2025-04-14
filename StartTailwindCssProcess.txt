@@ -1,0 +1,11 @@
+1 . npm install -D tailwindcss postcss autoprefixer vite 
+-> after this does not importing packages then initialise the project by this command : npm init -y
+2. npx tailwindcss init -p 
+->importing tailwind.config.js packages
+3. Extention : tailwindcss in vs-code
+4. add "*" in content in tailwind.config.js
+5. add scripts in package.json -> "scripts" : { "start" : "vite"},
+6. create style.css and import this libraries : @tailwind base;
+                                                @tailwind components;
+                                                @tailwind utilities;
+7. link this file with index.html
